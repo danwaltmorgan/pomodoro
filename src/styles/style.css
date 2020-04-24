@@ -1,0 +1,32 @@
+#wrapper {
+  width: 50vw;
+  height: 50vw;
+  background-color: grey
+}
+
+#time-container {
+  width: 40%;
+  height: 100%;
+  background-color: tan;
+  border-radius: 10px;
+
+}
+
+button {
+  width: 30%;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.8em
+}
+
+.container {
+  background: tan;
+  width: 60%;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}

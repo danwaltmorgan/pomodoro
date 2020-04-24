@@ -1,0 +1,29 @@
+h2 {
+  text-align: center;
+}
+
+#wrapper {
+  margin: auto;
+  position: relative;
+  top: 10vh
+}
+
+#time-container {
+  margin-top: 30%;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+}
+
+h3 {
+  text-align: center
+}
