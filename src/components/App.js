@@ -19,7 +19,6 @@ class App extends React.Component {
     return this.props.decrement(type)
   }
 
-
   render() {
     return (
       <div>
@@ -46,9 +45,20 @@ class App extends React.Component {
               decFunc={() => this.handleDec("session")}
             />
           </div>
+
           <Clock
-          session={this.props.session}
-          break={this.props.break}/>
+            session={this.props.session}
+            break={this.props.break}
+            current={this.props.current}
+            time={this.props.time}
+            reset={this.props.reset}
+            togglePlay={this.props.togglePlay}
+            play={this.props.play}
+            tick={this.props.tick}
+            update={this.props.update}
+            change={this.props.change}
+            button={this.props.button}
+          />
         </div>
       </div>
     )

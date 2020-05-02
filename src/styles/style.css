@@ -1,32 +1,62 @@
+:root {
+  --primary-color: grey;
+  --secondary-color: lightgrey;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+}
+
 #wrapper {
   width: 50vw;
   height: 50vw;
-  background-color: grey
+  background-color: var(--primary-color)
 }
 
 #time-container {
   width: 40%;
   height: 100%;
-  background-color: tan;
-  border-radius: 10px;
+  background-color: var(--secondary-color);
 
 }
 
 button {
-  width: 30%;
+  width: 50%;
+  height: 30%;
+  margin: 5px;
+  padding: 5px;
+  font-family: "Orbitron", sans-serif;
+  border: none;
+}
+
+button:hover {
+  background-color: #fff
 }
 
 h3 {
   font-size: 2em;
+  margin: 10px;
 }
 
 h4 {
-  font-size: 1.8em
+  font-size: 1.8em;
 }
 
 .container {
-  background: tan;
+  background: var(--secondary-color);
   width: 60%;
-  border-radius: 10px;
   padding-bottom: 20px;
+}
+
+.numbers {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 200;
+  font-size: 2.5em;
+}
+
+#time-left {
+  font-size: 3em;
+  margin: 10px auto;
 }

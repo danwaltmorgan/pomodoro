@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 import { Provider, connect } from 'react-redux'
 
 import store from './redux/store'
-import { incCreator, decCreator } from './redux/store'
+import { incCreator, decCreator, resetCreator, playCreator, tickCreator, updateCreator, changeTimeCreator } from './redux/store'
 import App from './components/App'
 
 
@@ -19,6 +19,21 @@ const mapDispatchToProps = (dispatch) => {
     },
     decrement: (length) => {
       dispatch(decCreator(length))
+    },
+    reset: () => {
+      dispatch(resetCreator())
+    },
+    togglePlay: () => {
+      dispatch(playCreator())
+    },
+    tick: () => {
+      dispatch(tickCreator())
+    },
+    update: () => {
+      dispatch(updateCreator())
+    },
+    change: () => {
+      dispatch(changeTimeCreator())
     }
   }
 }

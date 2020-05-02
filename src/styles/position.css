@@ -13,6 +13,20 @@ h2 {
   padding: 10px;
 }
 
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
